@@ -48,6 +48,7 @@ a:hover {
 
 .bloc-lg {
     padding: 100px 50px;
+    
 }
 
 .bloc-md {
@@ -297,16 +298,16 @@ a:hover {
 .navbar-brand {
     height: auto;
     padding: 3px 15px;
-    font-size: 25px;
+    font-size: 1.7em;
     font-weight: normal;
     font-weight: 600;
     line-height: 44px;
 }
 
 .navbar-brand img {
-    max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
+    max-height: 200px; 
 }
 
 .navbar-brand img[src$=svg] {
@@ -322,6 +323,9 @@ a:hover {
     margin-right: -16px;
     float: right;
     z-index: 1;
+    /*width: 300px; 
+    display: flex;
+    justify-content: space-between;*/
 }
 .nav {
     padding-left: 0;
@@ -978,8 +982,8 @@ h4 {
         box-shadow: none;
     }
     .navbar-brand img {
-        max-height: 40px;
         width: auto;
+        max-height: 40px;
     }
     .nav-invert .navbar-header {
         float: none;
@@ -1043,7 +1047,7 @@ h4 {
         width: 180px;
         height: 320px;
     }
-}
+
 
 @media (max-width: 400px) {
     .bloc {
