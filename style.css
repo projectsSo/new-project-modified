@@ -338,8 +338,7 @@ a:hover {
     display: block;
     padding: 10px 15px;
     text-decoration: none;
-     margin-right: 20rem;
-     margin-top: -3rem;
+    margin-top: 1%;
 }
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
