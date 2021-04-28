@@ -4435,17 +4435,6 @@ tbody.collapse.in {
     margin-bottom: 2px
 }
 
-@media (min-width:768px) {
-    .navbar-right, .dropdown-menu {
-        right: 0;
-        left: auto
-    }
-    .navbar-right, .dropdown-menu-left {
-        right: auto;
-        left: 0
-    }
-}
-
 .btn-group,
 .btn-group-vertical {
     position: relative;
