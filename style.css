@@ -339,6 +339,7 @@ a:hover {
     padding: 10px 15px;
     text-decoration: none;
      margin-right: 20rem;
+     margin-top: -3rem;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -950,6 +951,7 @@ h4 {
     .nav > li > a {             /*********ajout*******/
          padding-top: 15px;
          padding-bottom: 15px;
+         margin-top: 0;
         }
     
     .dropdown .dropdown a .caret {
