@@ -21,7 +21,7 @@
     <script src="./js/jqBootstrapValidation.js"></script>
     <script src="./js/formHandler.js"></script>
     <title>Contact</title>
-    <!---------change-version-------->
+    <!--change-version-->
 
     <!-- Analytics -->
 
@@ -41,18 +41,7 @@
                   alt="atlanta web design logo"
                   height="40"
               /></a>
-              <button
-                id="nav-toggle"
-                type="button"
-                class="ui-navbar-toggle navbar-toggle"
-                data-toggle="collapse"
-                data-target=".navbar-1"
-              >
-                <span class="sr-only">Toggle navigation</span
-                ><span class="icon-bar"></span><span class="icon-bar"></span
-                ><span class="icon-bar"></span>
-              </button>
-            </div>
+              </div>
             <div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
               <ul class="site-navigation nav navbar-nav">
                 <li>
@@ -79,7 +68,7 @@
               </h1>
               <p class="text-center mg-lg tc-white tight-width-whitespace">
                 Nous sommes ravis que vous souhaitiez collaborer avec notre
-                agence.<br />
+                agence.<br/>
                 Parlez-nous de votre projet en complétant le formulaire
                 ci-dessous.
               </p>
@@ -96,10 +85,7 @@
             <div class="col-sm-6">
               <form
                 id="form_1"
-                novalidate
-                success-msg="Your message has been sent."
-                fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
-              >
+                method="POST">
                 <div class="form-group">
                   <label for="name"> Nom </label>
                   <input
@@ -117,7 +103,7 @@
                     class="form-control"
                     type="email"
                     placeholder="Email requis"
-                    required="" aria invalid="false"
+                    required="" 
                   />
                 </div>
                 <div class="form-group">
