@@ -1057,7 +1057,9 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
-    
+    .mg-md {
+        text-align: center;
+    }
 
 }
 
